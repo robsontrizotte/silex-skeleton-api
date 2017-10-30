@@ -1,0 +1,32 @@
+{
+    "name": "robsontrizotte/silex-skeleton-api",
+    "description": "",
+    "minimum-stability": "stable",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Robson Trizotte",
+            "email": "robson.trizotte@gmail.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+
+    "require": {
+        "silex/silex": "~2.0",
+        "doctrine/orm": " ~2.5",
+        "hassankhan/config": "~0.8.2",
+        "aws/aws-sdk-php": "2.*",
+        "monolog/monolog": "^1.17",
+        "symfony/console": "^3.0",
+        "twig/twig": "~1.0",
+        "symfony/security": "^2.7",
+        "guzzlehttp/guzzle": "~6.0",
+        "nesbot/carbon": "~1.14",
+        "doctrine/dbal": "~2.2"
+    }
+}
